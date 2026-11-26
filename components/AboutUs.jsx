@@ -39,7 +39,7 @@ export default function AboutUs() {
 
           <div className="pc-about-hero-image">
             <Image
-              src="/images/about/pool-about.WEBP"
+              src="/images/about/pool-about.webp"
               alt="Swimming pool construction and professional pool solutions by The Sky Pool in Karachi"
               width={650}
               height={480}

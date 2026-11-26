@@ -1,0 +1,466 @@
+
+/* =========================================
+   The Sky Pool - RESPONSIVE NAVIGATION
+========================================= */
+
+.pc-header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #ffffff;
+    box-shadow: 0 3px 18px rgba(0, 30, 60, 0.08);
+    border-bottom: 1px solid #edf1f5;
+}
+
+.pc-navbar {
+    width: 100%;
+    max-width: 1600px;
+    min-height: 85px;
+    margin: 0 auto;
+    padding: 0 clamp(16px, 3.5vw, 55px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+/* =========================================
+   LOGO
+========================================= */
+
+.pc-logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.pc-logo-image {
+    display: block;
+    width: clamp(100px, 13vw, 190px);
+    height: auto;
+    object-fit: contain;
+}
+
+/* =========================================
+   NAVIGATION WRAPPER
+========================================= */
+
+.pc-nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    min-width: 0;
+    gap: clamp(10px, 1.8vw, 28px);
+}
+
+/* =========================================
+   NAVIGATION LINKS
+========================================= */
+
+.pc-nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    flex: 1;
+    min-width: 0;
+
+    gap: clamp(9px, 1.6vw, 25px);
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pc-nav-links li {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.pc-nav-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+
+    text-decoration: none;
+    color: #18334d;
+
+    font-size: clamp(12px, 1.05vw, 15px);
+    font-weight: 600;
+    letter-spacing: 0;
+
+    padding: 32px 0;
+
+    transition: color 0.3s ease;
+}
+
+/* Underline */
+
+.pc-nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 22px;
+    left: 0;
+
+    width: 0;
+    height: 2px;
+
+    background: #00a6bd;
+
+    transition: width 0.3s ease;
+}
+
+.pc-nav-link:hover,
+.pc-nav-link.active {
+    color: #009db5;
+}
+
+.pc-nav-link:hover::after,
+.pc-nav-link.active::after {
+    width: 100%;
+}
+
+/* =========================================
+   QUOTE BUTTON
+========================================= */
+
+.pc-nav-action {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.pc-contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 12px clamp(12px, 1.5vw, 23px);
+
+    border-radius: 5px;
+
+    background: #07345a;
+    color: #ffffff;
+
+    font-size: clamp(12px, 0.95vw, 14px);
+    font-weight: 600;
+
+    text-decoration: none;
+    white-space: nowrap;
+
+    transition: all 0.3s ease;
+}
+
+.pc-contact-btn span {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.pc-contact-btn:hover {
+    background: #00a6bd;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.pc-contact-btn:hover span {
+    transform: translate(3px, -3px);
+}
+
+/* =========================================
+   HAMBURGER BUTTON
+========================================= */
+
+.pc-menu-toggle {
+    display: none;
+
+    width: 42px;
+    height: 42px;
+
+    border: none;
+    border-radius: 5px;
+
+    background: #07345a;
+
+    cursor: pointer;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.pc-menu-toggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+
+    background: #ffffff;
+    border-radius: 3px;
+
+    transition: all 0.3s ease;
+}
+
+/* Hamburger animation */
+
+.pc-menu-toggle.active span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.pc-menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.pc-menu-toggle.active span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* =========================================
+   LARGE DESKTOP
+========================================= */
+
+@media (min-width: 1400px) {
+
+    .pc-navbar {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .pc-nav-links {
+        gap: 27px;
+    }
+
+}
+
+/* =========================================
+   LAPTOP
+========================================= */
+
+@media (max-width: 1200px) and (min-width: 851px) {
+
+    .pc-navbar {
+        padding: 0 22px;
+        gap: 14px;
+    }
+
+    .pc-logo-image {
+        width: 100px;
+    }
+
+    .pc-nav-content {
+        gap: 13px;
+    }
+
+    .pc-nav-links {
+        gap: 13px;
+    }
+
+    .pc-nav-link {
+        font-size: 13px;
+    }
+
+    .pc-contact-btn {
+        padding: 11px 13px;
+        font-size: 12px;
+    }
+
+}
+
+/* =========================================
+   TABLET AND MOBILE
+========================================= */
+
+@media (max-width: 850px) {
+
+    .pc-navbar {
+        min-height: 74px;
+        padding: 0 22px;
+        justify-content: space-between;
+    }
+
+    .pc-logo-image {
+        width: 100px;
+    }
+
+    .pc-menu-toggle {
+        display: flex;
+    }
+
+    .pc-nav-content {
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 0;
+
+        background: #ffffff;
+
+        max-height: 0;
+        overflow: hidden;
+
+        opacity: 0;
+        visibility: hidden;
+
+        box-shadow: 0 12px 20px rgba(0, 30, 60, 0.09);
+
+        transition:
+            max-height 0.4s ease,
+            opacity 0.3s ease,
+            visibility 0.3s ease;
+    }
+
+    .pc-nav-content.open {
+        max-height: 600px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .pc-nav-links {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 0;
+
+        padding: 12px 22px 0;
+        margin: 0;
+
+        box-sizing: border-box;
+    }
+
+    .pc-nav-links li {
+        width: 100%;
+        border-bottom: 1px solid #edf1f5;
+    }
+
+    .pc-nav-link {
+
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+
+        padding: 15px 10px;
+
+        font-size: 15px;
+        white-space: normal;
+
+        box-sizing: border-box;
+    }
+
+    .pc-nav-link::after {
+        display: none;
+    }
+
+    .pc-nav-link.active {
+        color: #009db5;
+        border-left: 3px solid #00a6bd;
+        padding-left: 15px;
+    }
+
+    .pc-nav-action {
+        width: 100%;
+        padding: 16px 22px 22px;
+        box-sizing: border-box;
+    }
+
+    .pc-contact-btn {
+        width: 100%;
+        min-height: 46px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+}
+
+/* =========================================
+   SMALL TABLETS
+========================================= */
+
+@media (max-width: 600px) {
+
+    .pc-navbar {
+        min-height: 70px;
+        padding: 0 18px;
+    }
+
+    .pc-logo-image {
+        width: 100px;
+    }
+
+}
+
+/* =========================================
+   MOBILE PHONES
+========================================= */
+
+@media (max-width: 480px) {
+
+    .pc-navbar {
+        min-height: 66px;
+        padding: 0 15px;
+    }
+
+    .pc-logo-image {
+        width: 80px;
+    }
+
+    .pc-menu-toggle {
+        width: 39px;
+        height: 39px;
+    }
+
+    .pc-nav-links {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .pc-nav-action {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+/* =========================================
+   EXTRA SMALL PHONES
+========================================= */
+
+@media (max-width: 350px) {
+
+    .pc-navbar {
+        min-height: 62px;
+        padding: 0 12px;
+    }
+
+    .pc-logo-image {
+        width: 80px;
+    }
+
+    .pc-menu-toggle {
+        width: 36px;
+        height: 36px;
+    }
+
+}

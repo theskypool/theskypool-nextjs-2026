@@ -1,0 +1,410 @@
+/* ==================================
+   The Sky Pool FOOTER
+================================== */
+
+.pc-footer {
+  width: 100%;
+  background: #082b45;
+  color: #ffffff;
+  font-family: inherit;
+}
+
+/* MAIN FOOTER */
+
+.pc-footer-main {
+  padding: 80px 20px 65px;
+  background: linear-gradient(135deg, #082b45 0%, #0b3854 100%);
+}
+
+.pc-footer-container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.pc-footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 0.9fr 1.3fr 1.1fr;
+  gap: 45px;
+}
+
+/* COMPANY INFORMATION */
+
+.pc-footer-about {
+  max-width: 350px;
+}
+
+.pc-footer-logo {
+  display: inline-block;
+  margin-bottom: 22px;
+}
+
+.pc-footer-logo-img {
+  display: block;
+  width: 210px;
+  height: auto;
+  object-fit: contain;
+}
+
+.pc-footer-description {
+  color: #c1d1dc;
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 0 0 24px;
+}
+
+.pc-footer-experience {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.pc-footer-experience-number {
+  color: #20c3d0;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.pc-footer-experience-text {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* FOOTER COLUMNS */
+
+.pc-footer-column h3 {
+  position: relative;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 8px 0 30px;
+  padding-bottom: 14px;
+}
+
+.pc-footer-column h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 42px;
+  height: 3px;
+  background: #15b8c8;
+  border-radius: 5px;
+}
+
+/* LINKS */
+
+.pc-footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pc-footer-column ul li {
+  margin-bottom: 15px;
+}
+
+.pc-footer-column ul li a {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #c1d1dc;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+.pc-footer-column ul li a span {
+  color: #19c0ce;
+  font-size: 20px;
+  line-height: 16px;
+  transition: transform 0.3s ease;
+}
+
+.pc-footer-column ul li a:hover {
+  color: #20c3d0;
+  padding-left: 4px;
+}
+
+.pc-footer-column ul li a:hover span {
+  transform: translateX(3px);
+}
+
+/* CONTACT DETAILS */
+
+.pc-footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  margin-bottom: 23px;
+}
+
+.pc-footer-contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 35px;
+  width: 35px;
+  height: 35px;
+  background: rgba(20, 190, 205, 0.13);
+  color: #20c3d0;
+  border-radius: 8px;
+  font-size: 19px;
+}
+
+.pc-footer-contact-item strong {
+  display: block;
+  color: #ffffff;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.pc-footer-contact-item p,
+.pc-footer-contact-item a {
+  display: block;
+  color: #c1d1dc;
+  font-size: 13px;
+  line-height: 1.7;
+  text-decoration: none;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.pc-footer-contact-item a:hover {
+  color: #20c3d0;
+}
+
+/* SOCIAL ICONS */
+
+.pc-footer-social {
+  display: flex;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.pc-footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 37px;
+  height: 37px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.pc-footer-social a:hover {
+  background: #13b8c8;
+  border-color: #13b8c8;
+  color: #082b45;
+  transform: translateY(-3px);
+}
+
+/* BOTTOM FOOTER */
+
+.pc-footer-bottom {
+  background: #061f33;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+.pc-footer-bottom-container {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pc-footer-bottom p {
+  color: #a9bdca;
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.pc-footer-bottom p strong {
+  color: #ffffff;
+}
+
+.pc-footer-tagline {
+  text-align: center;
+}
+
+.pc-footer-bottom-link {
+  color: #20c3d0;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.pc-footer-bottom-link:hover {
+  color: #ffffff;
+}
+
+/* ==================================
+   TABLET
+================================== */
+
+@media (max-width: 1050px) {
+  .pc-footer-grid {
+    grid-template-columns: 1.3fr 1fr;
+    gap: 45px 55px;
+  }
+
+  .pc-footer-about {
+    max-width: 450px;
+  }
+
+  .pc-footer-bottom-container {
+    flex-wrap: wrap;
+  }
+}
+
+/* ==================================
+   MOBILE
+================================== */
+
+@media (max-width: 600px) {
+  .pc-footer-main {
+    padding: 55px 20px 40px;
+  }
+
+  .pc-footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 38px 22px;
+  }
+
+  .pc-footer-about {
+    grid-column: 1 / -1;
+    max-width: 100%;
+  }
+
+  .pc-footer-logo-img {
+    width: 185px;
+  }
+
+  .pc-footer-description {
+    font-size: 13px;
+    line-height: 1.9;
+  }
+
+  .pc-footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 22px;
+  }
+
+  .pc-footer-column ul li {
+    margin-bottom: 13px;
+  }
+
+  .pc-footer-column ul li a {
+    font-size: 12px;
+    gap: 6px;
+  }
+
+  .pc-footer-contact {
+    grid-column: 1 / -1;
+  }
+
+  .pc-footer-contact-item {
+    margin-bottom: 17px;
+  }
+
+  .pc-footer-contact-item p,
+  .pc-footer-contact-item a {
+    font-size: 13px;
+  }
+
+  .pc-footer-bottom {
+    padding: 22px 18px;
+  }
+
+  .pc-footer-bottom-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .pc-footer-bottom p {
+    font-size: 11px;
+    text-align: left;
+  }
+
+  .pc-footer-tagline {
+    text-align: left;
+  }
+
+  .pc-footer-bottom-link {
+    margin-top: 5px;
+  }
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 360px) {
+  .pc-footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pc-footer-about,
+  .pc-footer-contact {
+    grid-column: auto;
+  }
+}
+
+
+/* FIX FOOTER FULL SCREEN WIDTH */
+
+.pc-footer {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.pc-footer-main,
+.pc-footer-bottom {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pc-footer-container,
+.pc-footer-bottom-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Prevent horizontal overflow */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

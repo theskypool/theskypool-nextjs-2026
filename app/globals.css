@@ -1,0 +1,113 @@
+/* GLOBAL RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+  color: #173247;
+  background: #ffffff;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* MEDIA */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+video {
+  display: block;
+}
+
+/* LINKS */
+
+a {
+  color: inherit;
+}
+
+/* FORM ELEMENTS */
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* BUTTONS */
+
+button {
+  cursor: pointer;
+}
+
+/* HEADINGS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/* TEXT */
+
+p {
+  text-wrap: pretty;
+}
+
+/* REMOVE DEFAULT LIST SPACING */
+
+ul,
+ol {
+  padding: 0;
+}
+
+/* ACCESSIBILITY */
+
+:focus-visible {
+  outline: 2px solid #009fb5;
+  outline-offset: 3px;
+}
+
+/* REDUCED MOTION */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,125 @@
+
+.pc-gallery-coming {
+  display: flex;
+  width: 100%;
+  min-height: 75vh;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 20px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(5, 37, 59, 0.97),
+      rgba(4, 69, 91, 0.93)
+    ),
+    url("/images/products/swimming-pool-products-hero.webp")
+    center / cover no-repeat;
+}
+
+.pc-gallery-content {
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pc-gallery-tag {
+  display: block;
+  margin-bottom: 28px;
+  color: #54d6e3;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.pc-gallery-icon {
+  display: flex;
+  width: 75px;
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  color: #54d6e3;
+  font-size: 35px;
+}
+
+.pc-gallery-content h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.pc-gallery-content h1 span {
+  display: block;
+  margin-top: 10px;
+  color: #54d6e3;
+}
+
+.pc-gallery-content > p {
+  max-width: 600px;
+  margin: 24px auto 0;
+  color: #dceaf0;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.pc-gallery-divider {
+  width: 65px;
+  height: 3px;
+  margin: 30px auto;
+  background: #00a6ba;
+}
+
+.pc-gallery-content .pc-gallery-note {
+  margin-top: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pc-gallery-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 15px 27px;
+  border-radius: 5px;
+  background: #00a6ba;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 750;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+.pc-gallery-button:hover {
+  background: #ffffff;
+  color: #082b45;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+  .pc-gallery-coming {
+    min-height: 70vh;
+    padding: 55px 20px;
+  }
+
+  .pc-gallery-content h1 {
+    font-size: 34px;
+  }
+
+  .pc-gallery-content > p {
+    font-size: 14px;
+  }
+
+  .pc-gallery-icon {
+    width: 65px;
+    height: 65px;
+    font-size: 30px;
+  }
+}

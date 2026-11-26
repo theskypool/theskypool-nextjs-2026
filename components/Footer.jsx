@@ -42,6 +42,7 @@ export default function Footer() {
                   width={220}
                   height={85}
                   className="pc-footer-logo-img"
+                  unoptimized
                 />
               </Link>
 

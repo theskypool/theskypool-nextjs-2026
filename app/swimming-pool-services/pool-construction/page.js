@@ -5,7 +5,7 @@ export const metadata = {
   title: "Swimming Pool Construction in Karachi | Contractors & Builders | The Sky Pool",
 
   description:
-    "The Sky Pool provides swimming pool construction in Karachi for homes, farmhouses, hotels and commercial properties. Complete pool design, plumbing, waterproofing, filtration and equipment installation.",
+    "The Sky Pool is a swimming pool construction company in Karachi, specializing in custom pool design, residential and commercial pool construction, luxury swimming pools and complete pool installation across Karachi.",
 
   keywords: [
     "swimming pool construction Karachi",
@@ -39,7 +39,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/images/services/pool-construction.WEBP",
+        url: "/images/services/pool-construction.webp",
         alt: "Swimming pool construction by The Sky Pool in Karachi",
       },
     ],
@@ -57,7 +57,7 @@ const service = {
   description:
     "The Sky Pool provides swimming pool construction services in Karachi for residential homes, farmhouses, hotels, resorts and commercial properties. From pool planning and structural construction to plumbing, waterproofing, filtration systems, tiling and equipment installation, we deliver swimming pool construction solutions according to individual project requirements.",
 
-  image: "/images/services/pool-construction.WEBP",
+  image: "/images/services/pool-construction.webp",
 
   imageAlt:
     "Swimming pool construction and installation project by The Sky Pool in Karachi",
@@ -65,19 +65,14 @@ const service = {
   // INTRODUCTION
 
   introTitle:
-    "Swimming Pool Design and Construction Company in Karachi",
+    "Swimming Pool Construction Company in Karachi | The Sky Pool",
 
   intro: [
-    "Planning and constructing a swimming pool requires more than building a water-holding structure. Proper pool dimensions, depth, structural requirements, plumbing arrangements, waterproofing, circulation and filtration systems must all be considered to achieve a functional and properly equipped swimming pool.",
 
-    "The Sky Pool provides swimming pool construction services in Karachi for residential properties, private villas, farmhouses, hotels, resorts and commercial developments. We undertake swimming pool construction and associated equipment installation according to the available site, intended pool usage, design preferences and project specifications.",
 
-    "Our swimming pool construction work can include structural construction, plumbing and UPVC piping, skimmers, vacuum points, main drains, waterproofing, pool tiles, filtration plants, pump room arrangements, underwater lighting and equipment installation. Each project is planned according to its individual requirements and agreed scope of work.",
+"The Sky Pool is a professional swimming pool construction company in Karachi, specializing in custom swimming pool design, construction and installation for residential and commercial properties. We build modern, luxury and customized swimming pools for houses, farmhouses, villas, hotels, resorts and commercial developments Our swimming pool construction services include architectural planning, excavation, RCC structural work, waterproofing, plumbing, filtration systems, pump room installation, underwater lighting, pool tiling and finishing. We also specialize in infinity-edge pools, overflow swimming pools and integrated jacuzzi construction, As swimming pool builders and contractors in Karachi, we focus on durable construction, quality materials, efficient water circulation and designs that complement your property's architecture, The Sky Pool provides swimming pool design and construction services across DHA, Clifton, Bahria Town, Gulshan-e-Iqbal, Scheme 33 and other areas of Karachi.Contact The Sky Pool for professional swimming pool construction in Karachi and turn your swimming pool design into reality."
 
-    "With extensive experience in swimming pool equipment, filtration systems, maintenance and installation, The Sky Pool understands the technical requirements involved in constructing and operating swimming pools. We focus on coordinating the construction and equipment components required for reliable pool circulation and operation.",
-
-    "Whether you are planning a new swimming pool for your home, developing a farmhouse swimming pool or installing a pool facility for a commercial property, we can discuss your requirements and help plan a suitable construction solution.",
-  ],
+],
 
   // CONSTRUCTION TYPES
 

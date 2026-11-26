@@ -70,6 +70,7 @@ export default function ProductLanding({ product }) {
             <Image
               src={product.image}
               alt={product.imageAlt}
+              unoptimized
               fill
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -170,6 +171,7 @@ export default function ProductLanding({ product }) {
               src={product.detailImage || product.image}
               alt={product.detailImageAlt || product.imageAlt}
               fill
+              unoptimized
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>

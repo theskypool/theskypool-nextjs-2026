@@ -22,7 +22,7 @@ export const metadata = {
       "Pool heat pump supply, installation and heating solutions in Karachi.",
     url: "https://theskypool.pk/swimming-pool-services/pool-heating-systems",
     type: "website",
-    images: ["/images/services/pool-heating.WEBP"],
+    images: ["/images/services/pool-heating.webp"],
   },
 };
 
@@ -32,7 +32,7 @@ const service = {
   subtitle: "Swimming Pool Heat Pumps, Supply and Installation",
   description:
     "The Sky Pool provides swimming pool heating solutions in Karachi, including heat pump selection, supply and installation for residential pools, farmhouses and commercial properties. We help assess pool volume, heating requirements and suitable equipment capacity.",
-  image: "/images/services/pool-heating.WEBP",
+  image: "/images/services/pool-heating.webp",
   imageAlt: "Swimming pool heat pump heating system installation",
 
   introTitle: "Swimming Pool Heat Pump and Heating Solutions",

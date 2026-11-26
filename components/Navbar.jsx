@@ -39,6 +39,7 @@ export default function Navbar() {
             height={75}
             priority
             className="pc-logo-image"
+            unoptimized
           />
         </Link>
 

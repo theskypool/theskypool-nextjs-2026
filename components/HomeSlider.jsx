@@ -100,6 +100,7 @@ export default function HomeSlider() {
               priority={index === 0}
               sizes="100vw"
               className="pc-slide-image"
+              unoptimized
             />
 
             {/* DARK OVERLAY */}

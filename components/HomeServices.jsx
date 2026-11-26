@@ -9,7 +9,7 @@ const services = [
     title: "Swimming Pool Construction",
     description:
       "Professional swimming pool construction in Karachi, including custom pool design, excavation, waterproofing, plumbing, filtration and complete installation.",
-    image: "/images/home/pool-construction.WEBP",
+    image: "/images/home/pool-construction.webp",
     link: "/swimming-pool-services/pool-construction",
     label: "Pool Construction",
   },
@@ -122,6 +122,8 @@ export default function HomeServices() {
                 sizes="(max-width: 600px) 100vw,
                        (max-width: 1024px) 50vw,
                        33vw"
+
+                       unoptimized
               />
 
               <span className="pc-service-number">
@@ -277,6 +279,7 @@ export default function HomeServices() {
                 sizes="(max-width: 600px) 100vw,
                        (max-width: 1024px) 50vw,
                        25vw"
+                       unoptimized
               />
 
               <span className="pc-product-index">

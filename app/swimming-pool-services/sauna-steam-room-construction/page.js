@@ -49,7 +49,7 @@ const service = {
   description:
     "The Sky Pool provides sauna and steam room construction in Karachi for residential properties, farmhouses, gyms, spas, hotels and commercial facilities. Our services can include room preparation, insulation, moisture protection, interior finishing, sauna heaters, steam generators, seating and associated equipment installation.",
 
-  image: "/images/services/sauna.WEBP",
+  image: "/images/services/sauna.webp",
 
   imageAlt:
     "Custom sauna room construction with timber interior finishing and sauna heating equipment",

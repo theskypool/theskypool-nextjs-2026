@@ -8,7 +8,7 @@ const services = [
     title: "Swimming Pool Construction",
     description:
       "Complete swimming pool construction for homes, farmhouses, hotels and commercial properties. Our construction scope can include pool structure, plumbing, waterproofing, filtration systems, tiles and equipment installation.",
-    image: "/images/services/pool-construction.WEBP",
+    image: "/images/services/pool-construction.webp",
     alt: "Swimming pool construction project in Karachi",
     href: "/swimming-pool-services/pool-construction",
     button: "Explore Construction Services",
@@ -18,7 +18,7 @@ const services = [
     title: "Swimming Pool Maintenance",
     description:
       "Professional swimming pool cleaning and maintenance, including vacuuming, brushing, water testing, chemical balancing, algae treatment, filter cleaning and equipment inspection.",
-    image: "/images/services/pool-maintenance.WEBP",
+    image: "/images/services/pool-maintenance.webp",
     alt: "Swimming pool cleaning and maintenance services in Karachi",
     href: "/swimming-pool-services/pool-maintenance",
     button: "Explore Maintenance Services",
@@ -28,7 +28,7 @@ const services = [
     title: "Swimming Pool Equipment Supply",
     description:
       "Swimming pool pumps, filters, cleaning accessories, vacuum hoses, vacuum heads, brushes, deep nets, water test kits, valves, lights and other pool equipment.",
-    image: "/images/services/pool-equipment.WEBP",
+    image: "/images/services/pool-equipment.webp",
     alt: "Swimming pool pumps filters and cleaning equipment",
     href: "/swimming-pool-services/pool-equipment-supply",
     button: "Explore Pool Equipment",
@@ -38,7 +38,7 @@ const services = [
     title: "Swimming Pool Heating Systems",
     description:
       "Swimming pool heat pump selection, supply and installation for residential pools, farmhouses and commercial swimming facilities. Equipment selection is based on pool volume and heating requirements.",
-    image: "/images/services/pool-heating.WEBP",
+    image: "/images/services/pool-heating.webp",
     alt: "Swimming pool heat pump and heating system installation",
     href: "/swimming-pool-services/pool-heating-systems",
     button: "Explore Heating Systems",
@@ -68,7 +68,7 @@ const services = [
     title: "Pool Filtration & Pump Room Systems",
     description:
       "Pool filtration and circulation solutions, including pumps, filters, multiport valves, uPVC piping, fittings and pump room equipment for new and existing swimming pools.",
-    image: "/images/services/pool-filtration.WEBP",
+    image: "/images/services/pool-filtration.webp",
     alt: "Swimming pool filtration plant and pump room equipment",
     href: "/contact-us",
     button: "Explore Equipment Solutions",
@@ -78,7 +78,7 @@ const services = [
     title: "Jacuzzi, Spa & Cold Plunge Pools",
     description:
       "Jacuzzi, spa, hydrotherapy and cold plunge pool construction solutions, planned according to available space, project requirements and selected equipment.",
-    image: "/images/services/jacuzzi.WEBP",
+    image: "/images/services/jacuzzi.webp",
     alt: "Jacuzzi spa and hydrotherapy pool",
     href: "/contact-us",
     button: "Discuss Your Project",
@@ -241,6 +241,7 @@ export default function PoolServices() {
                       src={service.image}
                       alt={service.alt}
                       fill
+                      unoptimized
                       sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 33vw"
                     />
 
@@ -320,6 +321,7 @@ export default function PoolServices() {
               src="/images/services/pool-cleaning-detail.webp"
               alt="Swimming pool cleaning and maintenance in Karachi"
               fill
+              unoptimized
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
@@ -337,6 +339,7 @@ export default function PoolServices() {
               alt="Swimming pool construction and filtration installation"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
+              unoptimized
             />
           </div>
 

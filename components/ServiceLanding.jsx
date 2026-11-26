@@ -85,6 +85,7 @@ export default function ServiceLanding({ service }) {
           <div className="service-hero-image">
             <Image
               src={image}
+              unoptimized
               alt={imageAlt}
               fill
               priority
@@ -320,6 +321,7 @@ export default function ServiceLanding({ service }) {
                     <div className="service-project-image">
                       <Image
                         src={project.image}
+                        unoptimized
                         alt={project.alt || project.title}
                         fill
                         sizes="(max-width: 768px) 100vw, 50vw"

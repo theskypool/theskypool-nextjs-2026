@@ -315,6 +315,7 @@ export default function PoolProducts() {
                   <Image
                     src={category.image}
                     alt={category.alt}
+                    unoptimized
                     fill
                     sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 33vw"
                   />
@@ -388,6 +389,7 @@ export default function PoolProducts() {
               alt="Swimming pool cleaning accessories and maintenance equipment"
               fill
               sizes="(max-width: 800px) 100vw, 50vw"
+              unoptimized
             />
           </div>
 
@@ -397,7 +399,7 @@ export default function PoolProducts() {
             </span>
 
             <h2>
-              Everything You Need for a Clean, Well-Maintained Pool
+              Complete Swimming Pool Cleaning & Maintenance Kit in Karachi
             </h2>
 
             <p>

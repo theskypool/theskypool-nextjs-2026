@@ -4,7 +4,7 @@ import ServiceLanding from "@/components/ServiceLanding";
 export const metadata = {
   title: "Swimming Pool Maintenance in Karachi | Pool Cleaning Services | The Sky Pool",
   description:
-    "Swimming pool maintenance in Karachi by The Sky Pool. Professional pool cleaning, vacuuming, water testing, chemical balancing, algae treatment, pump and filter inspection for residential and commercial pools.",
+    "The Sky Pool provides reliable swimming pool maintenance in Karachi, including pool cleaning, vacuuming, water testing, chemical balancing, algae treatment and filtration system maintenance.",
   keywords: [
     "swimming pool maintenance Karachi",
     "pool cleaning services Karachi",
@@ -27,7 +27,7 @@ export const metadata = {
       "Professional swimming pool cleaning, vacuuming, water testing, chemical balancing and filtration maintenance in Karachi.",
     url: "https://theskypool.pk/swimming-pool-services/pool-maintenance",
     type: "website",
-    images: ["/images/services/pool-maintenance.WEBP"],
+    images: ["/images/services/pool-maintenance.webp"],
   },
 };
 
@@ -42,24 +42,16 @@ const service = {
   description:
     "The Sky Pool provides swimming pool maintenance services in Karachi for residential pools, farmhouses, hotels and commercial properties. Our services include pool vacuuming, brushing, debris removal, water testing, chemical balancing, algae treatment, filter cleaning and swimming pool equipment inspection.",
 
-  image: "/images/services/pool-maintenance.WEBP",
+  image: "/images/services/pool-maintenance.webp",
 
   imageAlt:
     "Professional swimming pool cleaning and maintenance service in Karachi",
 
   // INTRODUCTION
-  introTitle: "Reliable Swimming Pool Maintenance Services in Karachi",
+  introTitle: "Swimming Pool Maintenance Services in Karachi | The Sky Pool",
 
   intro: [
-    "Regular swimming pool maintenance is essential for keeping pool water clean, clear and suitable for swimming. Without proper cleaning, circulation and chemical balancing, pools can develop algae, cloudy water, unpleasant odours and filtration problems.",
-
-    "The Sky Pool provides swimming pool cleaning and maintenance services in Karachi for homes, farmhouses, hotels and commercial properties. Our maintenance approach is based on the pool's size, usage, surrounding environment, water condition and installed filtration equipment.",
-
-    "Our pool maintenance work can include vacuuming, brushing pool walls and floors, removing leaves and debris, testing water parameters, balancing chemicals and inspecting pumps, filters and circulation equipment.",
-
-    "Swimming pool maintenance is not limited to cleaning the visible surface. Proper circulation, filtration, water testing and timely equipment inspection are also important for maintaining consistent pool water conditions.",
-
-    "Whether you require routine pool cleaning, periodic maintenance or assistance with a pool that has turned green or cloudy, The Sky Pool can assess the condition and discuss suitable maintenance requirements.",
+    "The Sky Pool provides professional swimming pool maintenance services in Karachi for residential and commercial swimming pools. Our services include regular pool cleaning, vacuuming, water testing, chemical balancing, algae removal, filter cleaning, pump inspection and filtration system maintenance. We help maintain clean, hygienic and crystal-clear swimming pool water through proper cleaning procedures and effective water treatment. From private swimming pools in DHA and Clifton to farmhouses, hotels and commercial properties across Karachi, we offer dependable swimming pool maintenance solutions tailored to your pool's requirements.",
   ],
 
   // TYPES OF MAINTENANCE

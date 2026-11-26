@@ -45,6 +45,7 @@ export default function AboutUs() {
               height={480}
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
+              unoptimized
               
             />
 

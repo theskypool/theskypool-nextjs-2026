@@ -1,0 +1,143 @@
+/* WhatsApp Floating Button */
+
+.whatsapp-float {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+
+  width: 60px;
+  height: 60px;
+
+  background: #25d366;
+  color: #ffffff;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+
+  z-index: 9999;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.22);
+
+  transition: all 0.3s ease;
+
+  animation: whatsappFloat 3s ease-in-out infinite;
+}
+
+/* WhatsApp Icon */
+
+.whatsapp-icon {
+  width: 34px;
+  height: 34px;
+}
+
+/* Hover Effect */
+
+.whatsapp-float:hover {
+  background: #1ebe5d;
+  transform: scale(1.1);
+
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+
+/* Tooltip */
+
+.whatsapp-tooltip {
+  position: absolute;
+
+  right: 75px;
+  top: 50%;
+
+  transform: translateY(-50%) translateX(10px);
+
+  background: #222222;
+  color: #ffffff;
+
+  padding: 10px 15px;
+
+  border-radius: 6px;
+
+  font-size: 13px;
+  font-weight: 500;
+
+  white-space: nowrap;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover .whatsapp-tooltip {
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(-50%) translateX(0);
+}
+
+/* Floating Animation */
+
+@keyframes whatsappFloat {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    width: 54px;
+    height: 54px;
+
+    right: 16px;
+    bottom: 20px;
+  }
+
+  .whatsapp-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .whatsapp-tooltip {
+    display: none;
+  }
+}
+
+/* Small Mobile Screens */
+
+@media (max-width: 380px) {
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+
+    right: 13px;
+    bottom: 16px;
+  }
+
+  .whatsapp-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Accessibility: Reduced Motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-float {
+    animation: none;
+    transition: none;
+  }
+}
